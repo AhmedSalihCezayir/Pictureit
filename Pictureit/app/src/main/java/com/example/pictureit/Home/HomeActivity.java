@@ -52,6 +52,7 @@ public class HomeActivity extends AppCompatActivity implements PlayGameFragment.
     private void initImageLoader() {
         UniversalImageLoader universalImageLoader = new UniversalImageLoader(mContext);
         ImageLoader.getInstance().init(universalImageLoader.getConfig());
+        System.out.println("HELLOO")
     }
 
     /**
